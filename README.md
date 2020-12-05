@@ -1,7 +1,7 @@
 # What is it ?
 
   
-Bu program veritabanında bulunan youtube kanalının gün içinde ki günlük istatistik verilerini analiz ederek dikkat çeken eski videolarını sıralar ve Instagram sayfasında album olarak paylaşır. 
+This program analyzes the daily statistics of the YouTube channel in the database, sorts the old videos that attracting attention and shares them as an album on the Instagram page. 
 
 
 ![enter image description here](https://github.com/MrSipahi/Youtube_old_videos/blob/main/photo/post.PNG?raw=true)
@@ -9,12 +9,12 @@ Bu program veritabanında bulunan youtube kanalının gün içinde ki günlük i
 
 # How does it work
 
-Bu programın çalışması için veritabanında 'gunluk' adında bir tablo olması gerekir. Program 'gunluk' adlı tablodan youtube kanallarının günlük istatistik verilerini elde eder.
+For this application  to work, there must be a table named 'gunluk' in the database. The program obtains daily statistics data of youtube channels from the table named 'gunluk'.
 
  ![enter image description here](https://github.com/MrSipahi/Youtube_Top_List/blob/main/photo/gunluk_table.PNG?raw=true)
 
 
-Kanalın gün içinde ki toplam istatistik verilerine bakarak video başı ortalama görüntülenme, beğenme, beğenmeme ve yorum sayılarını belirler. Bu ortalamanın üstünde olan videoları listeleyip atıldığı tarihe göre sıralar. Sıraladığı bu videoları bir şablonun içerisinde istatistik verileri yazılır, video fotoğrafı yerleştirilir ve Instagram sayfasında album olarak paylaşır.
+It determines the average number of views, likes, dislikes and comments per video by looking at the channel's total statistics throughout the day. It lists videos that are above this average by the date they were posted. The statistics data of these videos are written in a template, the video photo is placed and shared as an album on the Instagram page.
 
 
 
